@@ -25,13 +25,13 @@ th,td {
   padding:15px;
 }
 
-.fa-edit:before {
+tr .fa-edit:before {
   margin-left: 10px;
   position:absolute;
   top:16px;
 }
 
-.show {
+.showButton {
   display:none;
 }
 

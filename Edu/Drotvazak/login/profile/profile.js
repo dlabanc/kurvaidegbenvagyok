@@ -24,7 +24,7 @@ $(function () {
           kulcs +
           "</th><td>" +
           value +
-          "<span class='show fa fa-edit'></td></tr>"
+          "<span class='showButton fa fa-edit'></td></tr>"
       );
     } else {
       $("#masodik").append(
@@ -34,7 +34,7 @@ $(function () {
           kulcs +
           "</th><td>" +
           value +
-          "<span class='show fa fa-edit'></td></tr>"
+          "<span class='showButton fa fa-edit'></td></tr>"
       );
     }
     sor++;
@@ -43,6 +43,6 @@ $(function () {
   $("tr").hover(modosit);
 
   function modosit() {
-    $("tr span").eq(this.id).toggleClass("show");
+    $("tr span").eq(this.id).toggleClass("showButton");
   }
 });
