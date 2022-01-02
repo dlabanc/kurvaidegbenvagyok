@@ -1,0 +1,42 @@
+.container article {
+  overflow-y: visible;
+  height: auto;
+  text-align: center;
+}
+
+#elso,
+#masodik {
+  margin: 0 auto;
+}
+
+#tables {
+  display: flex;
+}
+
+tr {
+  display:flex;
+  border-bottom: 2px ridge rgb(24, 206, 167);
+  justify-content: space-between;
+  margin-bottom:50px;
+  position:relative;
+}
+
+th,td {
+  padding:15px;
+}
+
+.fa-edit:before {
+  margin-left: 10px;
+  position:absolute;
+  top:16px;
+}
+
+.show {
+  display:none;
+}
+
+img {
+  width:200px;
+  border-radius: 500px;
+}
+
